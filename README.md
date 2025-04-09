@@ -1,5 +1,7 @@
 # Chincol
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 A simple CLI tool to create GitHub issues from a CSV file using the GitHub CLI (`gh`).  
 This tool imports issues defined in a CSV file into a GitHub repository. It also ensures that required labels exist (creating them if missing).
 
