@@ -18,6 +18,36 @@ This tool imports issues defined in a CSV file into a GitHub repository. It also
 
 ## Installation
 
+```bash
+npm install -g chincol
+```
+
+## Usage
+
+1. Create a CSV file named `issues.csv` with the following columns:
+   - title: The issue title
+   - body: The issue description
+   - labels: Comma-separated labels
+
+Example `issues.csv`:
+
+```csv
+title,body,labels
+"Bug Report","This needs to be fixed","bug,urgent"
+"Feature Request","Add new feature","enhancement"
+```
+
+2. Run the tool:
+
+```bash
+chincol --repo "username/repository"
+```
+
+## Options
+
+--repo: GitHub repository in format "username/repository"
+--file: Path to CSV file (default: "./issues.csv")
+
 ### From Source
 
 Clone the repository and install dependencies:
