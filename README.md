@@ -1,6 +1,10 @@
 # Chincol
 
+<img src="./image.png" alt="Chincol" width="200" height="auto">
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![npm version](https://badge.fury.io/js/chincol.svg)](https://badge.fury.io/js/chincol)
+[![npm downloads](https://img.shields.io/npm/dm/chincol.svg)](https://www.npmjs.com/package/chincol)
 
 A simple CLI tool to create GitHub issues from a CSV file using the GitHub CLI (`gh`).  
 This tool imports issues defined in a CSV file into a GitHub repository. It also ensures that required labels exist (creating them if missing).
