@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * Chincol - A CLI tool to create GitHub issues from CSV
+ * Copyright (C) 2024 Sebastian Velasquez
+ */
+
 import fs from "fs";
 import path from "path";
 import { exec } from "child_process";
