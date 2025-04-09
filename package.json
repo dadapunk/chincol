@@ -1,0 +1,26 @@
+{
+  "name": "chincol",
+  "version": "0.0.1",
+  "description": "A CLI tool to create GitHub issues from CSV",
+  "main": "dist/index.js",
+  "bin": {
+    "chincol": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "csv-parser": "^3.0.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
